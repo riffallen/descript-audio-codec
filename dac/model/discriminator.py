@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from audiotools import AudioSignal
-from audiotools import ml
-from audiotools import STFTParams
+from dac.audiotools import AudioSignal
+from dac.audiotools import ml
+from dac.audiotools import STFTParams
 from einops import rearrange
 from torch.nn.utils import weight_norm
 

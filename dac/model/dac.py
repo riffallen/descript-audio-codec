@@ -4,8 +4,8 @@ from typing import Union
 
 import numpy as np
 import torch
-from audiotools import AudioSignal
-from audiotools.ml import BaseModel
+from dac.audiotools import AudioSignal
+from dac.audiotools.ml import BaseModel
 from torch import nn
 
 from .base import CodecMixin

@@ -4,7 +4,7 @@ from typing import Union
 
 import torch
 import tqdm
-from audiotools import AudioSignal
+from dac.audiotools import AudioSignal
 
 
 class CodecMixin:

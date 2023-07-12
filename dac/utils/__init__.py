@@ -1,12 +1,11 @@
 from pathlib import Path
 
 import argbind
-from audiotools import ml
+from dac.audiotools import ml
 
 import dac
 
 DAC = dac.model.DAC
-Accelerator = ml.Accelerator
 
 __MODEL_LATEST_TAGS__ = {
     "44khz": "0.0.1",

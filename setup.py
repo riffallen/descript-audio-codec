@@ -27,6 +27,7 @@ setup(
     packages=find_packages(),
     keywords=["audio", "compression", "machine learning"],
     install_requires=[
+        "argbind",
         "einops",
         "numpy",
         "torch",

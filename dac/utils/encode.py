@@ -5,8 +5,8 @@ from pathlib import Path
 import argbind
 import numpy as np
 import torch
-from audiotools import AudioSignal
-from audiotools.core import util
+from dac.audiotools import AudioSignal
+from dac.audiotools.core import util
 from tqdm import tqdm
 
 from dac.utils import load_model

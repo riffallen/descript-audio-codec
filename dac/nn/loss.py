@@ -3,8 +3,8 @@ from typing import List
 
 import torch
 import torch.nn.functional as F
-from audiotools import AudioSignal
-from audiotools import STFTParams
+from dac.audiotools import AudioSignal
+from dac.audiotools import STFTParams
 from torch import nn
 
 

@@ -27,8 +27,6 @@ setup(
     packages=find_packages(),
     keywords=["audio", "compression", "machine learning"],
     install_requires=[
-        "argbind>=0.3.7",
-        "descript-audiotools==0.7.1",
         "einops",
         "numpy",
         "torch",
